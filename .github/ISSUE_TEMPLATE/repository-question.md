@@ -1,9 +1,9 @@
 ---
 name: Repository question
 about: Ask a question about this repository!
-title: ''
-labels: ''
-assignees: ''
+title: '[Question]'
+labels: 'question'
+assignees: 'Nambaseking01'
 
 ---
 
