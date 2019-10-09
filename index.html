@@ -4,22 +4,89 @@
   <head>
 
     <title>SUCS Site | Home</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
-      body {
-        
+      #loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 150px;
+        margin: -75px 0 0 -75px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        }
+      
+      @-webkit-keyframes spin {
+        0% { -webkit-transfrom: rotate(0deg); }
+        100% { -webkit-transfrom: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .animate-bottom {
+        position: relative;
+        -webkit-animation-name: animationbottom;
+        -webkit-animation-duration: 1s;
+        animation-name: animationbottom;
+        animation-duration: 1s;
+      }
+      
+      @-webkit-keyframes animationbottom {
+        from { bottom:-100px; opacity:0 }
+        to { bottom:0px; opacity:1 }
+      }
+      
+      @keyframes animatebottom { 
+        from{ bottom:-100px; opacity:0 } 
+        to{ bottom:0; opacity:1 }
+      }
+      
+      #mainDiv {
+        display: none;
+      }
+      
+       body {
         background-color: powderblue;
         }
+      
       .centeredText { 
-        
         text-align: center;
         }
     </style>
   </head>
-
-  <body>
+  <body onload="loadingFunction()" style="margin:0;">
+    
+    <div id="loader></div>`
+    <div style="display:none;" id="mainDiv" class="animate-bottom">
+      
     <h1 class="centeredText">Scratch Ultimate Coding Shop</h1>
     
     <p><a href="https://scratch.mit.edu/discuss/topic/364975/">The Scratch Ultimate Coding Shop</a> is a shop in the <a href="https://scratch.mit.edu>Scratch programming community</a> created to help new and old programmers in coding with Scratch itself, Lua, HTML, CSS, JavaScript, C++, Python, and Node.js.</p>
+  </div>
+
+<script>
+  var myVar;
+  
+  function loadingFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("mainDiv").style.display = "block";
+  }
+</script>
+
   </body>
 </html>
