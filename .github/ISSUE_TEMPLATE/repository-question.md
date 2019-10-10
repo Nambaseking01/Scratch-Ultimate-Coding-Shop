@@ -3,7 +3,7 @@ name: Repository question
 about: Ask a question about this repository!
 title: "[Question]"
 labels: question
-assignees: Nambaseking01
+assignees: Nambaseking01, Jbrow78
 
 ---
 
