@@ -58,7 +58,8 @@ body {
     border-bottom: 1px solid #313030;
 }
 
-p.grey_60 {
+p#last_updated {
     color: grey;
     font-size: 60;
+    font-style: italic;
 }
