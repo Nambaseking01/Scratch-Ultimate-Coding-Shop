@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    
+    <body>
+        <style media="screen">
+            body,
+            :root {
+                height: 100vh;
+                margin: 0;
+            }
+            
+            .center {
+                align-items: center;
+                display: flex;
+                position: relative;
+                justify-content: center;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 5px;
+            }
+            
+        </style>
+        <button class="center">Button</button>
+        <p id="text">
+        </p>
+        <script>
+            function smilejsCallback() {}
+            fetch("https://smileycreations15.com/smilejs/loader.js") // Load smile.js UI library
+                .then(e => e.text())
+                .then(a => {
+                    eval(a)
+                })
+            var arrOfItems = ["Hello,", "World!"] // array of words
+            var idx = -1 // index
+            function click() { // Event handler
+                idx++ // increase idx by 1
+                if (idx === arrOfItems.length) idx = 0 // set idx to 0 when we reach the end of the list
+                document.getElementById("text") // get item
+                    .innerHTML += arrOfItems[idx] + " "
+            }
+            document.querySelector("button") // get button
+                .onclick = click
+            
+        </script>
+    </body>
+    
+</html>
