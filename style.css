@@ -1,3 +1,15 @@
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 body {
     background-color: powderblue;
     margin: 0;
@@ -62,12 +74,4 @@ p#last_updated {
     color: grey;
     font-size: 60;
     font-style: italic;
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: grey;
 }
