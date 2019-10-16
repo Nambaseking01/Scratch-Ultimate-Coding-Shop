@@ -63,3 +63,7 @@ p#last_updated {
     font-size: 60;
     font-style: italic;
 }
+
+a {
+    color: black;
+}
