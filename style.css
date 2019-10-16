@@ -64,6 +64,10 @@ p#last_updated {
     font-style: italic;
 }
 
-a {
+a:link {
     color: black;
+}
+
+a:visited {
+    color: grey;
 }
