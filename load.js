@@ -7,4 +7,4 @@ function showPage() {
 
 var m = "Last updated on " + document.lastModified;
 var p = m.length-8;
-document.getElementById("lastUpdated").innerHTML = m.substring(p, 0);
+document.getElementById("last_updated").innerHTML = m.substring(p, 0);
