@@ -9,3 +9,4 @@ If you have been invited to work on this repository, please go to this link and 
 Features that have been ready for v0.1.1:
 
 - HTML `<a>` tags have been styled!
+- Implemented more MetaData and one new stylesheet that changes nothing!
