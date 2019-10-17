@@ -70,7 +70,7 @@ body {
     border-bottom: 1px solid #313030;
 }
 
-last_updated {
+p#last_updated {
     color: grey;
     font-size: 60;
     font-style: italic;
