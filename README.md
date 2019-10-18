@@ -5,9 +5,3 @@ also accepts orders like HTML and JavaScript since the owner wanted to make the 
 languages.
 
 If you have been invited to work on this repository, please go to this link and read the instructions first: https://scratch.mit.edu/discuss/post/3721250/
-
-Features that have been ready for v0.1.1:
-
-- HTML `<a>` tags have been styled!
-- Implemented more MetaData and one new stylesheet that changes nothing!
-- Implemented new temporary styling for the website with Bootstrap!
