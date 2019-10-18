@@ -5,3 +5,7 @@ also accepts orders like HTML and JavaScript since the owner wanted to make the 
 languages.
 
 If you have been invited to work on this repository, please go to this link and read the instructions first: https://scratch.mit.edu/discuss/post/3721250/
+
+Features that have been prepared for ALPHA v0.0.3:
+
+- A clock system beneath the welcoming text!
