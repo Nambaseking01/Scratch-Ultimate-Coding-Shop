@@ -10,3 +10,4 @@ Features that have been ready for v0.1.1:
 
 - HTML `<a>` tags have been styled!
 - Implemented more MetaData and one new stylesheet that changes nothing!
+- Implemented new temporary styling for the website with Bootstrap!
