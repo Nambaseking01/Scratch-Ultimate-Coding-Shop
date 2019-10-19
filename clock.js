@@ -13,4 +13,4 @@ function updateClock() {
   
   setTimeout(updateClock, 1000);
 }
-updateClock() 
+  setTimeout(updateClock, 1000);
