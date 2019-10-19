@@ -14,7 +14,7 @@ function updateClock() {
           months[now.getMonth()],
           now.getFullYear()].join(' ');
   
-  document.getElementById('time').innerHTML = [date, time].join(' / ');
+  document.getElementById('time').innerHTML = [date, time].join(' | ');
   
   setTimeout(updateClock, 1000);
 }
