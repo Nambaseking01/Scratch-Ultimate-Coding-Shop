@@ -9,3 +9,4 @@ If you have been invited to work on this repository, please go to this link and 
 Features that have been prepared for v0.0.3:
 
 - New digital clock system in welcoming div!
+- More information about the shop!
